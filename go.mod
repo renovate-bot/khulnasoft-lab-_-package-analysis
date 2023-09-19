@@ -9,7 +9,7 @@ require (
 	github.com/khulnasoft-lab/package-feeds v0.0.0-20230904233013-d0a163860c3b
 	github.com/package-url/packageurl-go v0.1.1
 	github.com/texttheater/golang-levenshtein/levenshtein v0.0.0-20200805054039-cae8b0eaed6c
-	go.uber.org/zap v1.25.0
+	go.uber.org/zap v1.26.0
 	go.uber.org/zap/exp v0.1.1-0.20230825131617-98e9c4fe632c
 	gocloud.dev v0.34.0
 	gocloud.dev/pubsub/kafkapubsub v0.34.0
