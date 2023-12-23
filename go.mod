@@ -6,7 +6,7 @@ require (
 	cloud.google.com/go/pubsub v1.33.0
 	github.com/blendle/zapdriver v1.3.1
 	github.com/gopacket/gopacket v1.1.1
-	github.com/khulnasoft-lab/package-feeds v0.0.0-20230904233013-d0a163860c3b
+	github.com/khulnasoft-lab/package-feeds v0.0.0-20231023053939-03befcbafa96
 	github.com/package-url/packageurl-go v0.1.2
 	github.com/texttheater/golang-levenshtein/levenshtein v0.0.0-20200805054039-cae8b0eaed6c
 	go.uber.org/zap v1.26.0
