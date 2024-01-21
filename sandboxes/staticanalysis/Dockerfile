@@ -18,7 +18,7 @@ WORKDIR /src/sandboxes/staticanalysis
 # If CGO is disabled then we don't need glibc
 RUN CGO_ENABLED=0 go build -o staticanalyze staticanalyze.go
 
-FROM alpine:3.17.1@sha256:93d5a28ff72d288d69b5997b8ba47396d2cbb62a72b5d87cd3351094b5d578a0
+FROM alpine:3.19.0@sha256:13b7e62e8df80264dbb747995705a986aa530415763a6c58f84a3ca8af9a5bcd
 RUN apk add --no-cache file && \
 	apk add --no-cache nodejs && \
 	apk add --no-cache npm && \
