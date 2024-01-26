@@ -1,4 +1,4 @@
-FROM golang:1.21.0@sha256:12359f96c43077803959dab88ce60c87cd2543f3b907bf54a34a5104270f404f as build
+FROM golang:1.21.6@sha256:5c7c2c9f1a930f937a539ff66587b6947890079470921d62ef1a6ed24395b4b3 as build
 WORKDIR /src
 
 # First cache the dependencies to avoid downloading again on code change
