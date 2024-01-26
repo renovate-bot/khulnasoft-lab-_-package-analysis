@@ -10,7 +10,7 @@ RUN go mod download
 COPY . ./
 RUN go build -o analyze cmd/analyze/main.go && go build -o worker cmd/worker/main.go
 
-FROM ubuntu:22.04@sha256:42ba2dfce475de1113d55602d40af18415897167d47c2045ec7b6d9746ff148f
+FROM ubuntu:22.04@sha256:e6173d4dc55e76b87c4af8db8821b1feae4146dd47341e4d431118c7dd060a74
 
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update && apt-get upgrade -y && \
