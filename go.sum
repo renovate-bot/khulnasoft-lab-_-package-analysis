@@ -162,6 +162,8 @@ github.com/jmespath/go-jmespath/internal/testify v1.5.1 h1:shLQSRRSCCPj3f2gpwzGw
 github.com/jmespath/go-jmespath/internal/testify v1.5.1/go.mod h1:L3OGu8Wl2/fWfCI6z80xFu9LTZmf1ZRjMHUOPmWr69U=
 github.com/khulnasoft-lab/package-feeds v0.0.0-20231023053939-03befcbafa96 h1:SUyjnt6/7xkie5bxFErw5CftclYLhBv5DM/Y6lFHEKo=
 github.com/khulnasoft-lab/package-feeds v0.0.0-20231023053939-03befcbafa96/go.mod h1:+WYhfoMgrNvqbBsl2qBJHN6omTU76grJhIB2Z4XtuBY=
+github.com/khulnasoft-lab/package-feeds v0.0.0-20240121191640-bdd4da6a76ed h1:+wwAXCRYWbBvHLVfZq8kK9xeN/hQi3V6w7CLX6uSkus=
+github.com/khulnasoft-lab/package-feeds v0.0.0-20240121191640-bdd4da6a76ed/go.mod h1:jmU0HQc0YqAHiZgE+pBPVLtFr1526v7VptY6jscc9tw=
 github.com/klauspost/compress v1.17.3 h1:qkRjuerhUU1EmXLYGkSH6EZL+vPSxIrYjLNAK4slzwA=
 github.com/klauspost/compress v1.17.3/go.mod h1:/dCuZOvVtNoHsyb+cuJD3itjs3NbnF6KH9zAO4BDxPM=
 github.com/package-url/packageurl-go v0.1.2 h1:0H2DQt6DHd/NeRlVwW4EZ4oEI6Bn40XlNPRqegcxuo4=
