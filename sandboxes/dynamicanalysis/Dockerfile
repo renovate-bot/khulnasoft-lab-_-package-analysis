@@ -46,10 +46,8 @@ RUN apt-get update && apt-get -y upgrade && apt-get install -y --no-install-reco
 	libpng-dev \
 	libzip-dev \
 	net-tools \
-	netcat \
 	powershell \
 	protobuf-compiler \
-	python2 \
 	sshpass \
 	sudo \
 	tcpdump \

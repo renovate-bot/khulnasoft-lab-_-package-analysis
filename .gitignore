@@ -21,3 +21,4 @@
 # these should be pre-installed where needed
 node_modules/
 
+venv
