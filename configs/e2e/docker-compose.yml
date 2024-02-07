@@ -1,7 +1,7 @@
 version: "3"
 services:
   zookeeper:
-    image: confluentinc/cp-zookeeper@sha256:4bf43af62c8cc4a29c05f3c4f63207e2ad575d489c0ed74086a3fd63cddf5733
+    image: confluentinc/cp-zookeeper@sha256:c83977656ae4bb755a6016887b118f171c6b8cf99d03a95e84efdfe7ae5bd454
     ports:
       - 2181:2181
     healthcheck:
@@ -16,7 +16,7 @@ services:
       ZOOKEEPER_SYNC_LIMIT: 2
 
   kafka:
-    image: confluentinc/cp-kafka@sha256:5f59c398df1aca10f0844f4cafaa87e6c3d24c90b4f551f984962bb9ea78e701
+    image: confluentinc/cp-kafka@sha256:fcd007cd3c5ad0ff8cc9b92c2746f467afd0db1989563b9ddc513bb8c571a0eb
     ports:
       - 9094:9094
     depends_on:
@@ -37,7 +37,7 @@ services:
       KAFKA_offsets_topic_replication_factor: 1
 
   minio:
-    image: minio/minio@sha256:684ce208c005fe032659ec77bafa6a17a16c41686c334618dec924b3505e7090
+    image: minio/minio@sha256:551682a57a940eb304fad155d8749ab8105d3bbd443b9f4cab7da82c463d534a
     hostname: minio
     ports:
       - 9000:9000

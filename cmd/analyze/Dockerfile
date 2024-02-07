@@ -1,4 +1,4 @@
-FROM golang:1.21.0@sha256:12359f96c43077803959dab88ce60c87cd2543f3b907bf54a34a5104270f404f as build
+FROM golang:1.21.6@sha256:5c7c2c9f1a930f937a539ff66587b6947890079470921d62ef1a6ed24395b4b3 as build
 RUN apt-get update && apt-get install -y libpcap-dev
 WORKDIR /src
 
@@ -10,7 +10,7 @@ RUN go mod download
 COPY . ./
 RUN go build -o analyze cmd/analyze/main.go && go build -o worker cmd/worker/main.go
 
-FROM ubuntu:22.04@sha256:42ba2dfce475de1113d55602d40af18415897167d47c2045ec7b6d9746ff148f
+FROM ubuntu:22.04@sha256:e6173d4dc55e76b87c4af8db8821b1feae4146dd47341e4d431118c7dd060a74
 
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update && apt-get upgrade -y && \
