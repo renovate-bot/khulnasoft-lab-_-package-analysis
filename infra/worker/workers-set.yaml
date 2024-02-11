@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: worker
-        image: gcr.io/ossf-malware-analysis/analysis:latest
+        image: ghcr.io/khulnasoft-lab/analysis:latest
         imagePullPolicy: Always
         command: ["worker"]
         env:

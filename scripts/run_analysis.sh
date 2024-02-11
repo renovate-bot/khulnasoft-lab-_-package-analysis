@@ -152,7 +152,7 @@ fi
 
 DOCKER_MOUNTS=("-v" "$CONTAINER_MOUNT_DIR:/var/lib/containers" "-v" "$RESULTS_DIR:/results" "-v" "$STATIC_RESULTS_DIR:/staticResults" "-v" "$FILE_WRITE_RESULTS_DIR:/writeResults" "-v" "$LOGS_DIR:/tmp" "-v" "$ANALYZED_PACKAGES_DIR:/analyzedPackages")
 
-ANALYSIS_IMAGE=gcr.io/ossf-malware-analysis/analysis
+ANALYSIS_IMAGE=ghcr.io/khulnasoft-lab/analysis
 
 ANALYSIS_ARGS=("analyze" "-upload" "file:///results/" "-upload-file-write-info" "file:///writeResults/" "-upload-static" "file:///staticResults/" "-upload-analyzed-pkg" "file:///analyzedPackages/")
 

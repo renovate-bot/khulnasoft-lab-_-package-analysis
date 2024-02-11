@@ -22,7 +22,7 @@ import (
 )
 
 // defaultDynamicAnalysisImage is container image name of the default dynamic analysis sandbox
-const defaultDynamicAnalysisImage = "gcr.io/ossf-malware-analysis/dynamic-analysis"
+const defaultDynamicAnalysisImage = "ghcr.io/khulnasoft-lab/dynamic-analysis"
 
 // sandboxExecutionLogPath is the absolute path of the execution log file
 // inside the sandbox. The file is used for code execution feature.

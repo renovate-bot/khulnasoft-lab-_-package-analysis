@@ -5,7 +5,7 @@
 # NO_PUBKEY B53DC80D13EDEF05 [kubectl]
 
 # buildpack-deps 22.04 [ubuntu]
-FROM buildpack-deps@sha256:d76488a56e1e85930e053b794daa9f990636565bf0de54903d65d93c43c3cad5 AS image
+FROM buildpack-deps@sha256:9e3ce7993b8428dda197c7ec530e18061f6accd7b86d4f52388bbfe42c5e4647 AS image
 
 # All intermediate files during first-stage build are stored under /setup
 # This directory is removed before second-stage build (i.e. copying runtime files to an empty image)
@@ -46,10 +46,8 @@ RUN apt-get update && apt-get -y upgrade && apt-get install -y --no-install-reco
 	libpng-dev \
 	libzip-dev \
 	net-tools \
-	netcat \
 	powershell \
 	protobuf-compiler \
-	python2 \
 	sshpass \
 	sudo \
 	tcpdump \
